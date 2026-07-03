@@ -1,0 +1,57 @@
+/* UCEMA Color Tokens */
+:root {
+  /* ── Brand Crimson (from logo: #940028) ── */
+  --crimson-950: #3D0011;
+  --crimson-900: #5E0019;
+  --crimson-800: #7A0021;
+  --crimson-700: #940028;   /* ← PRIMARY BRAND COLOR */
+  --crimson-600: #AE0030;
+  --crimson-500: #C4183C;
+  --crimson-400: #D94060;
+  --crimson-200: #F0A0B4;
+  --crimson-100: #F8DDE4;
+  --crimson-50:  #FDF2F5;
+
+  /* ── Dark / Tech Backgrounds ── */
+  --dark-950: #070A0F;
+  --dark-900: #0D1218;   /* primary dark slide bg */
+  --dark-800: #141C28;
+  --dark-700: #1C2636;
+  --dark-600: #253245;
+  --dark-500: #2F4058;
+
+  /* ── Neutrals ── */
+  --neutral-0:   #FFFFFF;
+  --neutral-50:  #F6F5F4;
+  --neutral-100: #ECEAE9;
+  --neutral-200: #D9D7D5;
+  --neutral-300: #C0BDBB;
+  --neutral-400: #9E9B99;
+  --neutral-500: #7A7876;
+  --neutral-600: #5A5856;
+  --neutral-700: #3E3C3B;
+  --neutral-800: #252322;
+  --neutral-900: #131211;
+
+  /* ── Semantic Aliases ── */
+  --brand:              var(--crimson-700);
+  --brand-dark:         var(--crimson-800);
+  --brand-light:        var(--crimson-500);
+
+  --surface-dark:       var(--dark-900);
+  --surface-crimson:    var(--crimson-700);
+  --surface-light:      var(--neutral-0);
+  --surface-muted:      var(--neutral-50);
+  --surface-sidebar:    var(--neutral-200);
+
+  --text-on-dark:       var(--neutral-0);
+  --text-on-crimson:    var(--neutral-0);
+  --text-on-light:      var(--neutral-900);
+  --text-muted-dark:    rgba(255,255,255,0.55);
+  --text-muted-light:   var(--neutral-500);
+  --text-brand:         var(--crimson-700);
+
+  --accent-line:        var(--crimson-700);
+  --accent-line-subtle: var(--crimson-500);
+  --divider-light:      var(--neutral-200);
+}

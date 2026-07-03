@@ -1,0 +1,34 @@
+<!-- @startingPoint section="Slides" subtitle="Divisor de sección — fondo carmesí" viewport="1280x720" -->
+<!-- @dsCard group="Slides" viewport="1280x720" name="02 — Section Divider" subtitle="Divisor entre secciones: degradado carmesí + columna blanca con logo" -->
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:1280px;height:720px;overflow:hidden;}
+</style>
+</head>
+<body>
+  <div style="position:relative;width:1280px;height:720px;overflow:hidden;display:flex;">
+
+    <!-- Crimson gradient main area -->
+    <div style="flex:1;background:linear-gradient(135deg,#C4183C 0%,#940028 45%,#5E0019 100%);position:relative;display:flex;flex-direction:column;justify-content:center;padding:80px 80px 80px 96px;overflow:hidden;">
+      <!-- Watermark "U" -->
+      <div style="position:absolute;right:-40px;bottom:-60px;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:480px;color:rgba(0,0,0,0.12);line-height:1;pointer-events:none;user-select:none;">U</div>
+
+      <!-- Section label -->
+      <div style="font-family:'Barlow',sans-serif;font-weight:400;font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:4px;text-transform:uppercase;margin-bottom:24px;position:relative;">SECCIÓN 01</div>
+
+      <!-- Section title -->
+      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:88px;color:#fff;line-height:0.95;letter-spacing:-0.01em;position:relative;text-wrap:balance;">Nombre de<br>la Sección</div>
+
+      <div style="width:64px;height:3px;background:rgba(255,255,255,0.4);margin-top:28px;position:relative;"></div>
+      <div style="font-family:'Barlow',sans-serif;font-weight:300;font-size:22px;color:rgba(255,255,255,0.65);margin-top:20px;position:relative;">Breve descripción del bloque temático</div>
+    </div>
+
+    <!-- White sidebar with logo — exactly as original -->
+    <div style="width:220px;flex-shrink:0;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:40px;">
+      <img src="../assets/logo.svg" width="148" height="148" alt="UCEMA" style="display:block;">
+    </div>
+
+  </div>
+</body></html>

@@ -1,0 +1,45 @@
+/* UCEMA Typography Tokens */
+/* Primary font: Barlow — closest open-source match to Acumin Pro */
+/* NOTE: Flag substitution — original brand uses "Acumin Pro" (Adobe). */
+/* Barlow (Google Fonts) shares the same humanist-grotesque proportions. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap');
+
+:root {
+  /* ── Font Families ── */
+  --font-display:   'Barlow Condensed', 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:      'Barlow', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:      'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* ── Slide Type Scale (px) ── */
+  --text-hero:      88px;   /* Cover main title */
+  --text-display:   68px;   /* Section heading */
+  --text-title:     48px;   /* Content slide title */
+  --text-heading:   38px;   /* Sub-section heading */
+  --text-subhead:   30px;   /* Subheading */
+  --text-body-lg:   26px;   /* Large body / key bullets */
+  --text-body:      22px;   /* Standard body */
+  --text-small:     18px;   /* Captions, labels */
+  --text-xs:        14px;   /* Fine print */
+
+  /* ── Font Weights ── */
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-extrabold:800;
+
+  /* ── Line Heights ── */
+  --leading-tight:   1.05;
+  --leading-snug:    1.2;
+  --leading-normal:  1.45;
+  --leading-relaxed: 1.65;
+
+  /* ── Letter Spacing ── */
+  --tracking-tight:  -0.02em;
+  --tracking-normal:  0em;
+  --tracking-wide:    0.06em;
+  --tracking-wider:   0.12em;
+  --tracking-widest:  0.2em;
+}
